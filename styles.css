@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.question {
+    cursor: pointer;
+    background-color: #cceeff; /* Light blue background */
+}
+
+.question:hover {
+    border: 2px solid blue; /* Blue border on hover */
+}
+
+#restart-btn {
+    display: block;
+    margin: 20px auto;
+}
